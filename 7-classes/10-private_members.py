@@ -19,12 +19,5 @@ class TagCloud:
 
 
 cloud = TagCloud()
-print(cloud.__tags)
-cloud["python"] = 10
-len(cloud)
-cloud.add("python")
-cloud.add("python")
-cloud.add("python")
-print(cloud.__tags)
-
-print(cloud.__tags["PY"])
+print(cloud.__dict__)
+print(cloud._TagCloud__tags)
